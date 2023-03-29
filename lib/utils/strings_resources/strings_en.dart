@@ -12,4 +12,13 @@ class StringsEnglish implements StringResource {
 
   @override
   String eventDetails = "Event Details";
+
+  @override
+  String organizer = "Organizer";
+
+  @override
+  String aboutEvent = "About Event";
+
+  @override
+  String bookNow = "Book Now";
 }
