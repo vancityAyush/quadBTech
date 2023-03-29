@@ -1,0 +1,42 @@
+import 'package:flutter/material.dart';
+import 'package:shimmer/shimmer.dart';
+
+abstract class AppTheme {
+  late Color colorPrimary;
+  late Color colorSecondary;
+  late Color colorAccent;
+  late Color colorAccentText;
+  late Color colorTextPrimary;
+  late Color colorTextSecondary;
+  late Color colorIconSecondary;
+  late Color colorTextHeading;
+  late Color colorAccentSecondary;
+  late Color colorBackground;
+  late Color colorDrawerSecondary;
+  late Color colorButtonRed;
+  late Color colorButtonPink;
+  late Color colorButtonTeal;
+  late Color colorButtonGreen;
+  late Color colorButtonOrange;
+  late Color colorProButtonOrange;
+  late Color colorProButtonGreen;
+  late Color colorButtonYellow;
+  late Color colorButtonTransparent;
+  late Color colorBorder;
+  late Color colorBoxShadow;
+  late Color colorTimelinePrimary;
+  late Color colorTimelineSecondary;
+  late Color colorTimelineAccent;
+  late Color colorSecondaryDark;
+  late Color colorGrey;
+  late Color colorWhite;
+  late Color colorGreyTransparent;
+  late Color colorGreyTransparent2;
+  late Color colorBorder2;
+  ButtonStyle buttonStyle(Color color, {bool withBorder});
+  late ShimmerDirection shimmerDirection;
+  late Color shimmerBaseColor;
+  late Color shimmerHighlightColor;
+  late Color colorTextPrimaryDim;
+  late Color dividerColor;
+}

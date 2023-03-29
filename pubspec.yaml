@@ -1,0 +1,68 @@
+name: sde_007
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # Network
+  dio: ^4.0.4
+  # UI
+  shimmer: ^2.0.0
+  fluttertoast: ^8.0.0
+  #Storage
+  shared_preferences: ^2.0.15
+  path_provider: ^2.0.11
+  share_plus: ^4.2.0
+  rxdart: ^0.27.5
+  permission_handler: ^10.0.0
+  connectivity_plus: ^2.3.9
+  uuid: ^3.0.4
+  #device
+  device_info_plus: ^6.0.0
+  devicelocale: ^0.5.5
+  package_info_plus: ^1.0.0
+  url_launcher: ^6.1.6
+  cached_network_image: ^3.2.2
+  json_serializable: ^6.6.1
+  json_annotation: ^4.8.0
+  build_runner: ^2.3.3
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: Inter
+      fonts:
+       - asset: assets/fonts/Inter-Thin.ttf
+         weight: 100
+       - asset: assets/fonts/Inter-ExtraLight.ttf
+         weight : 200
+       - asset: assets/fonts/Inter-Light.ttf
+         weight : 300
+       - asset: assets/fonts/Inter-Regular.ttf
+         weight: 400
+       - asset: assets/fonts/Inter-Medium.ttf
+         weight: 500
+       - asset: assets/fonts/Inter-SemiBold.ttf
+         weight: 600
+       - asset: assets/fonts/Inter-Bold.ttf
+         weight: 700
+       - asset: assets/fonts/Inter-ExtraBold.ttf
+         weight: 800
+       - asset: assets/fonts/Inter-Black.ttf
+         weight: 900
